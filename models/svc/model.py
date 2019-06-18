@@ -22,7 +22,7 @@ class Model:
         """
         self.log_C = log_C
         self.kernel = kernel
-        self.shrinking = shrinking
+        self.shrinking = True if shrinking == "true" else False
         self.standard_scaler = None
         self.model = None
         self.pipeline = None

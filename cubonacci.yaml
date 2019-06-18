@@ -10,4 +10,4 @@ optimization:
 validation:
   type: kfold-crossvalidation
   shuffle: true
-  numberFolds: 5
+  folds: 5

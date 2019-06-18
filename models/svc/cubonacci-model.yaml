@@ -14,8 +14,8 @@ hyperparameters:
     - sigmoid
   description: 'Kernel type'
 - name: shrinking
-  type: int
+  type: categorical
   values:
-    - 0
-    - 1
+    - true
+    - false
   description: "Whether to use the shrinking heuristic"
