@@ -8,14 +8,14 @@ hyperparameters:
 - name: kernel
   type: categorical
   values:
-    - rbf
-    - linear
-    - poly
-    - sigmoid
+    - "rbf"
+    - "linear"
+    - "poly"
+    - "sigmoid"
   description: 'Kernel type'
 - name: shrinking
   type: categorical
   values:
-    - true
-    - false
+    - "true"
+    - "false"
   description: "Whether to use the shrinking heuristic"
